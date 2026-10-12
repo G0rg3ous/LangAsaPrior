@@ -1,0 +1,7 @@
+torch>=2.1
+numpy>=1.23
+nibabel>=5.1
+tqdm>=4.65
+tensorboard>=2.14
+transformers>=4.57
+accelerate>=1.0

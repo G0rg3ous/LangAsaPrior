@@ -1,0 +1,32 @@
+anterior commissure
+posterior commissure
+infracollicular sulcus
+pontomesencephalic junction
+superior interpeduncular fossa
+right superior lateral mesencephalic sulcus
+left superior lateral mesencephalic sulcus
+right inferior lateral mesencephalic sulcus
+left inferior lateral mesencephalic sulcus
+culmen
+intermammillary sulcus
+right mammillary body
+left mammillary body
+pineal gland
+right lateral aspect of frontal horn at anterior commissure
+left lateral aspect of frontal horn at anterior commissure
+right lateral aspect of frontal horn at posterior commissure
+left lateral aspect of frontal horn at posterior commissure
+genu of corpus callosum
+splenium of the corpus callosum
+right anterolateral temporal horn
+left anterolateral temporal horn
+right superior anteromedial temporal horn
+left superior anteromedial temporal horn
+right inferior anteromedial temporal horn
+left inferior anteromedial temporal horn
+right indusium griseum origin
+left indusium griseum origin
+right ventral occipital horn
+left ventral occipital horn
+right olfactory sulcal fundus
+left olfactory sulcal fundus

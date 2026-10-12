@@ -1,0 +1,19 @@
+# Data and derived artifacts
+data/
+datasets_1mm_192/
+*.nii
+*.nii.gz
+*.fcsv
+checkpoints/
+logs/
+runs/
+outputs/
+predictions/
+
+# Python / editor
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
