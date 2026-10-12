@@ -43,6 +43,14 @@ This repository supplies code and experiment split metadata only; access to the
 original AFIDs data must be arranged separately. After obtaining the data,
 prepare them locally in the format described below.
 
+### Knee CT dataset
+
+The knee CT dataset used in this study is a private research dataset and is
+not publicly available at present. We are currently unable to release these
+data. We will consider making the dataset publicly available in future work,
+subject to the necessary data-sharing permissions and approvals. No release
+timeline is currently specified.
+
 The loader expects a prepared data root with the following layout:
 
 ```text
