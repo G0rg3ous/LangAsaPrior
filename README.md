@@ -4,9 +4,12 @@ This repository contains the code required to train and evaluate both the plain
 3D U-Net baseline and the MLLM-enhanced dynamic landmark-query framework on the
 AFIDs 1 mm, `192 x 192 x 192` dataset split used in this project.
 
-The repository intentionally contains **code and split metadata only**. No MRI
-volumes, FCSV annotations, checkpoints, TensorBoard logs, or derived prediction
-files are redistributed.
+The repository provides implementation code and split metadata for reproducibility.
+**The AFIDs dataset is not distributed through this repository.** Researchers
+should obtain the imaging data and annotations directly from the official
+[AFIDs data repository](https://github.com/afids/afids-data), subject to the
+original datasets' access requirements. Checkpoints, TensorBoard logs, and
+derived prediction files are not redistributed.
 
 ## Contents
 
@@ -27,13 +30,18 @@ files are redistributed.
 - `configs/`: baseline and AFIDs-192 configuration.
 - `splits/split_afids_7_1_2.json`: fixed 92/13/27 train/validation/test split.
 
-## Data access and terms
+## AFIDs dataset availability
 
-AFIDs images are **not included**. Obtain the source data and accept each
-underlying dataset's terms through the official
-[afids-data repository](https://github.com/afids/afids-data). In particular,
-HCP and OASIS imaging data have dataset-specific data-use agreements; this
-repository does not grant redistribution rights.
+**We do not directly provide or redistribute the AFIDs dataset**, including its
+MRI volumes or ground-truth landmark annotations. The dataset should be obtained
+from the official [AFIDs data repository](https://github.com/afids/afids-data).
+Please follow the access instructions and applicable data-use terms provided by
+the original dataset maintainers. Some underlying imaging datasets, including
+HCP and OASIS, have their own access conditions and data-use agreements.
+
+This repository supplies code and experiment split metadata only; access to the
+original AFIDs data must be arranged separately. After obtaining the data,
+prepare them locally in the format described below.
 
 The loader expects a prepared data root with the following layout:
 
